@@ -1,0 +1,46 @@
+@media (max-width: 380px) {
+    .oculto{
+        visibility: hidden;
+    }
+    .flexible{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cool{
+        width: 50vw;
+        height: auto;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .tec{
+        height: 20vh;
+        width: fit-content;
+    }
+    footer{
+        display: flex;
+        justify-content:center;
+    }
+    footer{
+        img{
+        display: none;}
+    
+    }
+    iframe{
+        width: 70vw;
+        height: auto;
+    }
+    #res{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    input[type="submit"]{
+        margin: 3vw;
+        margin-left: 45%;
+    }
+
+}

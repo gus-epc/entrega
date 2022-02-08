@@ -1,0 +1,44 @@
+.contenedor{
+    display: grid;
+    min-height: 100vh;
+    min-width: 100vw;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+.btn{
+    background-color: rgb(50, 50, 50);
+    border-radius: 10vw;
+    margin: 2vw;
+    padding: 0vw 1vw 0vw 1vw;
+    border: 0ch;
+}
+.logo {
+    height: 5vw;
+}
+.servicio{
+    height: 7vw;
+}
+.cool {
+    height: 15vw;
+    padding: 3vw;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hijo{
+    text-align: center;
+    padding: 3vh;
+}
+.flexible{
+    display: flex;
+    align-items: center;
+}
+img:hover{
+    transform: scale(1.1);
+}

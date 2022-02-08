@@ -1,0 +1,23 @@
+form{
+    input{
+        margin-left: 1vw;
+    }
+}
+fieldset{
+    background-color: rgb(12, 12, 12);
+    padding: 3vh;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    input{
+        display: flex;
+        justify-content: center;
+    }
+}
+legend {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+  }

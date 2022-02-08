@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Be Vietnam Pro', sans-serif; }
+
+body {
+  overflow-x: hidden;
+  font-family: 'Be Vietnam Pro', sans-serif; }
+
+header nav {
+  background-color: #0c0c0c; }
+
+main {
+  grid-area: main;
+  padding: 3vh 2vh 3vh 3vh;
+  color: white;
+  background-color: #24428d; }
+
+footer {
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  background-color: #0c0c0c;
+  color: white;
+  padding: 2vh 2vh 2vh 2vh; }
+  footer li {
+    display: inline; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  font-size: large; }
+
+p {
+  margin: 2vw; }
+
+a {
+  color: #F2F2F0;
+  text-decoration: none; }
+
+.contenedor {
+  display: grid;
+  min-height: 100vh;
+  min-width: 100vw;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header" "main" "footer"; }
+
+.btn {
+  background-color: #323232;
+  border-radius: 10vw;
+  margin: 2vw;
+  padding: 0vw 1vw 0vw 1vw;
+  border: 0ch; }
+
+.logo {
+  height: 5vw; }
+
+.servicio {
+  height: 7vw; }
+
+.cool {
+  height: 15vw;
+  padding: 3vw; }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.hijo {
+  text-align: center;
+  padding: 3vh; }
+
+.flexible {
+  display: flex;
+  align-items: center; }
+
+img:hover {
+  transform: scale(1.1); }
+
+form input {
+  margin-left: 1vw; }
+
+fieldset {
+  background-color: #0c0c0c;
+  padding: 3vh; }
+
+label {
+  display: flex;
+  flex-direction: column;
+  padding: 1vh; }
+  label input {
+    display: flex;
+    justify-content: center; }
+
+legend {
+  width: 0px;
+  height: 0px;
+  overflow: hidden; }
+
+@media (max-width: 380px) {
+  .oculto {
+    visibility: hidden; }
+  .flexible {
+    display: flex;
+    flex-direction: column-reverse; }
+  .cool {
+    width: 50vw;
+    height: auto; }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .tec {
+    height: 20vh;
+    width: fit-content; }
+  footer {
+    display: flex;
+    justify-content: center; }
+  footer img {
+    display: none; }
+  iframe {
+    width: 70vw;
+    height: auto; }
+  #res {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  input[type="submit"] {
+    margin: 3vw;
+    margin-left: 45%; } }
