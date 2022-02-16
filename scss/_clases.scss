@@ -1,3 +1,4 @@
+@import "colores";
 .contenedor{
     display: grid;
     min-height: 100vh;
@@ -5,8 +6,8 @@
     grid-template-rows: auto 1fr auto;
     grid-template-areas: 
     "header"
-    "main"
-    "footer";
+    "mainn"
+    "footerr";
 }
 .btn{
     background-color: rgb(50, 50, 50);
@@ -26,10 +27,10 @@
     padding: 3vw;
 }
 .flex{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
 }
 .hijo{
     text-align: center;
@@ -39,6 +40,35 @@
     display: flex;
     align-items: center;
 }
-img:hover{
-    transform: scale(1.1);
+#marcas{
+    padding-top: 3vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-items: center;
 }
+.marca{
+    width: 30vw;
+    padding: 5vw;
+}
+.m{
+    display: flex;
+    flex-direction: column;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ser{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5vw;
+}
+
+

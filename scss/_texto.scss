@@ -1,15 +1,25 @@
+@import "colores";
 h1 {
     text-align: center;
-
+    font-family: 'Lora', serif; 
 }
 h2 {
-    font-size: large;
-
+    font-size: 3vw;
+    font-family: 'Lora', serif; 
 }
 p {
+    font-size: 2vw;
     margin: 2vw;
 }
-a {
-    color: #F2F2F0;
+a{
     text-decoration: none;
-   }
+    color: rgb(250, 250, 250);
+    &:hover{
+        color: rgb(250, 250, 250);
+    }
+}
+h4 {
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Lora', serif; 
+ }

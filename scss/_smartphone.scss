@@ -1,6 +1,7 @@
-@media (max-width: 380px) {
-    .oculto{
-        visibility: hidden;
+@media (max-width: 680px) {
+    p{
+        font-size: 5vw;
+        text-align: center;
     }
     .flexible{
         display: flex;
@@ -14,21 +15,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
     .tec{
         height: 20vh;
         width: fit-content;
     }
-    footer{
-        display: flex;
-        justify-content:center;
-    }
-    footer{
-        img{
-        display: none;}
-    
-    }
+
     iframe{
         width: 70vw;
         height: auto;
@@ -42,5 +34,25 @@
         margin: 3vw;
         margin-left: 45%;
     }
-
+    footer{
+        display: grid;
+        grid-template-columns: 1fr !important;
+        justify-content: center;
+        img, p{
+            display: none;}
+    }
+    #marcas{
+        padding-top: 3vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        justify-items: center;
+    }
+    .ser{
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 5vw;
+    }
 }
