@@ -1,5 +1,5 @@
-@import "estructura";
-@import "texto";
-@import "clases";
-@import "formulario";
-@import "smartphone";
+@import "./base/estructura";
+@import "./base/clases";
+@import "./base/texto";
+@import "./components/formulario";
+@import "./components/smartphone";
