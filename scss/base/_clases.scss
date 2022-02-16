@@ -19,18 +19,9 @@
 .logo {
     height: 5vw;
 }
-.servicio{
-    height: 7vw;
-}
 .cool {
     height: 15vw;
     padding: 3vw;
-}
-.flex{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
 }
 .hijo{
     text-align: center;
@@ -39,6 +30,7 @@
 .flexible{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 #marcas{
     padding-top: 3vw;
@@ -58,9 +50,8 @@
     }
 }
 .videos{
-    display: flex;
+    @extend .flexible;
     flex-wrap: wrap;
-    justify-content: center;
 }
 .ser{
     display: grid;
@@ -70,5 +61,4 @@
     text-align: center;
     padding-top: 5vw;
 }
-
 

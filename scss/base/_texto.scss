@@ -1,12 +1,18 @@
 @import "colores";
+$haches:(
+    familia: 'Lora', 
+    centrar: center
+);
+@mixin letras { 
+    text-align: map-get($haches, centrar);
+    font-family: map-get($haches, familia) ;
+}
 h1 {
-    text-align: center;
-    font-family: 'Lora', serif; 
+    @include letras;
 }
 h2 {
-    text-align: center;
+    @include letras;
     font-size: 3vw;
-    font-family: 'Lora', serif; 
 }
 p {
     font-size: 2vw;
@@ -19,8 +25,21 @@ a{
         color: rgb(250, 250, 250);
     }
 }
+$marcas:(
+    hannabach: #000000,
+    knobloch: #939999,
+    savarez: #bc2535,
+    daddario: #c0132f,
+    augustine: #692670,
+    sonatina: #272596
+);
+@each $marca-color, $color in $marcas {
+    .#{$marca-color} {
+        background-color: $color;
+    }
+}
+
 h3{
-    text-align: center;
+    @include letras;
     font-size: 4vw;
-    font-family: 'Lora', serif; 
  }

@@ -32,6 +32,48 @@ body {
     body footer li {
       display: inline; }
 
+h1 {
+  text-align: center;
+  font-family: "Lora"; }
+
+h2 {
+  text-align: center;
+  font-family: "Lora";
+  font-size: 3vw; }
+
+p {
+  font-size: 2vw;
+  margin: 2vw; }
+
+a {
+  text-decoration: none;
+  color: #fafafa; }
+  a:hover {
+    color: #fafafa; }
+
+.hannabach {
+  background-color: #000000; }
+
+.knobloch {
+  background-color: #939999; }
+
+.savarez {
+  background-color: #bc2535; }
+
+.daddario {
+  background-color: #c0132f; }
+
+.augustine {
+  background-color: #692670; }
+
+.sonatina {
+  background-color: #272596; }
+
+h3 {
+  text-align: center;
+  font-family: "Lora";
+  font-size: 4vw; }
+
 .contenedor {
   display: grid;
   min-height: 100vh;
@@ -49,26 +91,18 @@ body {
 .logo {
   height: 5vw; }
 
-.servicio {
-  height: 7vw; }
-
 .cool {
   height: 15vw;
   padding: 3vw; }
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around; }
 
 .hijo {
   text-align: center;
   padding: 3vh; }
 
-.flexible {
+.flexible, .videos {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
 
 #marcas {
   padding-top: 3vw;
@@ -87,9 +121,7 @@ body {
     transform: scale(1.1); }
 
 .videos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
+  flex-wrap: wrap; }
 
 .ser {
   display: grid;
@@ -98,30 +130,6 @@ body {
   align-items: center;
   text-align: center;
   padding-top: 5vw; }
-
-h1 {
-  text-align: center;
-  font-family: 'Lora', serif; }
-
-h2 {
-  text-align: center;
-  font-size: 3vw;
-  font-family: 'Lora', serif; }
-
-p {
-  font-size: 2vw;
-  margin: 2vw; }
-
-a {
-  text-decoration: none;
-  color: #fafafa; }
-  a:hover {
-    color: #fafafa; }
-
-h3 {
-  text-align: center;
-  font-size: 4vw;
-  font-family: 'Lora', serif; }
 
 form {
   padding: 6vw; }
@@ -160,7 +168,7 @@ legend {
   p {
     font-size: 5vw;
     text-align: center; }
-  .flexible {
+  .flexible, .videos {
     display: flex;
     flex-direction: column-reverse; }
   .cool {
