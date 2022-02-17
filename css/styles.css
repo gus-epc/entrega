@@ -159,8 +159,17 @@ legend {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: nowrap; }
   .linea input {
+    padding: 0;
+    margin: 0; }
+
+.linea2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; }
+  .linea2 input {
     padding: 0;
     margin: 0; }
 
@@ -208,4 +217,11 @@ legend {
     justify-items: center;
     align-items: center;
     text-align: center;
-    padding-top: 5vw; } }
+    padding-top: 5vw; }
+  .linea2 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 0 10% 0 10%; }
+    .linea2 label {
+      text-align: center; } }
