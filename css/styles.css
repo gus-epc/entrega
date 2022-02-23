@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Lora', serif; }
+  font-family: 'Poppins', sans-serif; }
 
 body {
   overflow-x: hidden;
-  font-family: 'Lora', serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #0c0c0c; }
   body header {
     grid-area: header; }
@@ -34,16 +34,17 @@ body {
 
 h1 {
   text-align: center;
-  font-family: "Lora"; }
+  font-family: "Poppins"; }
 
 h2 {
   text-align: center;
-  font-family: "Lora";
+  font-family: "Poppins";
   font-size: 3vw; }
 
 p {
   font-size: 2vw;
-  margin: 2vw; }
+  margin: 2vw;
+  justify-content: center; }
 
 a {
   text-decoration: none;
@@ -51,27 +52,9 @@ a {
   a:hover {
     color: #fafafa; }
 
-.hannabach {
-  background-color: #000000; }
-
-.knobloch {
-  background-color: #939999; }
-
-.savarez {
-  background-color: #bc2535; }
-
-.daddario {
-  background-color: #c0132f; }
-
-.augustine {
-  background-color: #692670; }
-
-.sonatina {
-  background-color: #272596; }
-
 h3 {
   text-align: center;
-  font-family: "Lora";
+  font-family: "Poppins";
   font-size: 4vw; }
 
 .contenedor {
@@ -91,16 +74,13 @@ h3 {
 .logo {
   height: 5vw; }
 
-.cool {
-  height: 15vw;
-  padding: 3vw; }
-
 .hijo {
   text-align: center;
   padding: 3vh; }
 
 .flexible, .videos {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center; }
 
@@ -177,9 +157,6 @@ legend {
   p {
     font-size: 5vw;
     text-align: center; }
-  .flexible, .videos {
-    display: flex;
-    flex-direction: column-reverse; }
   .cool {
     width: 50vw;
     height: auto; }
@@ -187,9 +164,6 @@ legend {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .tec {
-    height: 20vh;
-    width: fit-content; }
   iframe {
     width: 70vw;
     height: auto; }

@@ -19,16 +19,13 @@
 .logo {
     height: 5vw;
 }
-.cool {
-    height: 15vw;
-    padding: 3vw;
-}
 .hijo{
     text-align: center;
     padding: 3vh;
 }
 .flexible{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }

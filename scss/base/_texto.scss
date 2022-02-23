@@ -1,6 +1,6 @@
 @import "colores";
 $haches:(
-    familia: 'Lora', 
+    familia:'Poppins', 
     centrar: center
 );
 @mixin letras { 
@@ -17,6 +17,7 @@ h2 {
 p {
     font-size: 2vw;
     margin: 2vw;
+    justify-content: center;
 }
 a{
     text-decoration: none;
@@ -25,20 +26,6 @@ a{
         color: rgb(250, 250, 250);
     }
 }
-$marcas:(
-    hannabach: #000000,
-    knobloch: #939999,
-    savarez: #bc2535,
-    daddario: #c0132f,
-    augustine: #692670,
-    sonatina: #272596
-);
-@each $marca-color, $color in $marcas {
-    .#{$marca-color} {
-        background-color: $color;
-    }
-}
-
 h3{
     @include letras;
     font-size: 4vw;

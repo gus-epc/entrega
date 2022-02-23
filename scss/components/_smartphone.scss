@@ -3,10 +3,6 @@
         font-size: 5vw;
         text-align: center;
     }
-    .flexible{
-        display: flex;
-        flex-direction: column-reverse;
-    }
     .cool{
         width: 50vw;
         height: auto;
@@ -16,11 +12,6 @@
         flex-direction: column;
         align-items: center;
     }
-    .tec{
-        height: 20vh;
-        width: fit-content;
-    }
-
     iframe{
         width: 70vw;
         height: auto;
@@ -63,9 +54,5 @@
     label{
         text-align: center;
     }
-    input{
-
-    }
-
 }
 }
